@@ -654,7 +654,7 @@ a[href*='tel'], a[href*='mailto'] {
 .main-decorated-box:before {
 	content: '';
 	position: absolute;
-	background: url("../images/decor-image-1-576x538.png") no-repeat center center;
+	background: blue center center;
 	background-size: contain;
 	width: 100%;
 	height: 100%;
@@ -7334,6 +7334,11 @@ html.rd-navbar-fixed-linked .page {
 	float: left;
 	margin-left: 10px;
 	cursor: pointer;
+	color: white;
+}
+
+.rd-navbar-classic.rd-navbar-static .rd-navbar-brand label:hover{
+	font-weight: bolder;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main-element {
