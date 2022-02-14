@@ -1,0 +1,8 @@
+/*===========================
+      Custome css 
+===========================*/
+.navbar-brand img , .footer-logo img {
+    max-height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
